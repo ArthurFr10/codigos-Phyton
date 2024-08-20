@@ -1,7 +1,7 @@
 #TIpagem estatica
 import os 
 
-os.system("cls|| clear") # Limpa o terminal.
+os.system("cls || clear") # Limpa o terminal.
 
 
 
