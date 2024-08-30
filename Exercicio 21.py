@@ -12,7 +12,6 @@ Caso seja menor que 5 o aluno está reprovado
 import os
 os.system("cls || clear ")
 
-contador = 0
 soma = 0
 
 while True:
