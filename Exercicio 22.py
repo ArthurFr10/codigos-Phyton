@@ -32,8 +32,3 @@ while True:
 
         case _:
             print("Tente novamente")
-
-
-
-
-       
