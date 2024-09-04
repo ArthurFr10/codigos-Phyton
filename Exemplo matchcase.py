@@ -15,9 +15,8 @@ match(opcao):
         print("Opção de cadastrar usuário")
     case 2:
         print("Opção de excluir usuário")
-    case 3:2
+    case 3:
     
         print("Opção de sair do sistema")
     case _:
         print("Opção inválida")
-
