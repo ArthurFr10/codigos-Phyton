@@ -1,14 +1,10 @@
-"Solicite que o usuário insira em uma lista cinco nomes e mostre na ordem alfabética"
-
 import os
 os.system("cls || clear")
 
+lista_numeros = [10,5,22,14]
 
-lista_nomes = []
+lista_organizada = sorted(lista_numeros)
+#realizando cópia da lista original
 
-for i in range(5):
-    nome = input("Digite um nome: ")
-    lista_nomes.append(nome)
-    
-lista_nomes_ordem = sorted(lista_nomes)
-print(lista_nomes_ordem)    
+print(f"Lista original: {lista_numeros}")
+print(f"Lista modificada: {lista_organizada}")

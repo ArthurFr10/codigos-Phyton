@@ -1,13 +1,11 @@
-"""
-Criando uma função para contagem regressiva.
-Iniciando contagem com o número 10.
-"""
-
 import os
 os.system("cls || clear")
 
-def contagem():
-    for i in range(10, 0, -1):
-        print(i)
+lista_numeros = [1,2,3,4,5,6]
 
-contagem()
+#realizando cópia da lista original
+lista_organizada = sorted(lista_numeros, reverse=True)
+
+print(f"Lista original: {lista_numeros}")
+
+print(f"Lista modificada: {lista_organizada}")

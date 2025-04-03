@@ -1,8 +1,11 @@
-import os 
+import os
 os.system("cls || clear")
 
-lista_de_nomes = ["marta", "arthur", "leo", "joao", "pedro"]
+lista_numeros = ["Marta", "Ana Clara", "Ana Flávia", "Tatiana", "Carla"]
 
-lista_ordem_alfabetica = sorted(lista_de_nomes)
+#realizando cópia da lista original
+lista_organizada = sorted(lista_numeros)
 
-print(lista_ordem_alfabetica)
+print(f"Lista original: {lista_numeros}")
+
+print(f"\nLista ordenada: {lista_organizada}")
